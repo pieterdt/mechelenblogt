@@ -1,0 +1,14 @@
+uuid: 7de7e64c-9320-4603-8490-20ceda8c9ad3
+name: 'Mechelen Blogt'
+mail: website@mechelenblogt.be
+slogan: ''
+page:
+  403: /
+  404: /
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: nl
+default_langcode: nl
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

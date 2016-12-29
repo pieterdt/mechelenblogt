@@ -1,0 +1,20 @@
+uuid: 7a3d60de-85b4-4734-b41c-717fbab067ee
+langcode: nl
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.city_map_display_type
+field_name: city_map_display_type
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

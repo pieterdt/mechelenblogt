@@ -1,0 +1,14 @@
+uuid: 8f79f625-a8d4-40df-b3f7-281253b783eb
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.htmler
+  module:
+    - user
+id: user_remove_role_action.htmler
+label: 'Verwijder de rol HTMLer van de geselecteerde gebruikers'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: htmler

@@ -1,0 +1,21 @@
+uuid: f77520fe-30f4-4e56-a408-2ea58cc7650d
+langcode: nl
+status: true
+dependencies: {  }
+id: upgrade_d6_dblog_settings
+migration_tags:
+  - 'Drupal 6'
+migration_group: migrate_drupal_6
+label: 'Database logging configuration'
+source:
+  plugin: variable
+  variables:
+    - dblog_row_limit
+process:
+  row_limit: dblog_row_limit
+destination:
+  plugin: config
+  config_name: dblog.settings
+migration_dependencies:
+  required: {  }
+  optional: {  }

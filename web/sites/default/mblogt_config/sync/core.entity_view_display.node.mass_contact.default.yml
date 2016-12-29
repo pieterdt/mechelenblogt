@@ -1,0 +1,25 @@
+uuid: 9c37abd6-4763-4eed-99ed-ba11c18942ef
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.field.node.mass_contact.body
+    - node.type.mass_contact
+  module:
+    - text
+    - user
+id: node.mass_contact.default
+targetEntityType: node
+bundle: mass_contact
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden:
+  langcode: true

@@ -1,0 +1,41 @@
+uuid: aac49b52-e1bb-4d79-b80b-914f1a27d821
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.field.node.blog.body
+    - field.field.node.blog.comment_no_subject
+    - field.field.node.blog.onderwerpen_interne_blog
+    - node.type.blog
+  module:
+    - text
+    - user
+id: node.blog.default
+targetEntityType: node
+bundle: blog
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  comment:
+    label: hidden
+    type: comment_default
+    weight: 20
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 100
+  onderwerpen_interne_blog:
+    label: hidden
+    type: entity_reference_label
+    weight: 20
+    settings:
+      link: true
+    third_party_settings: {  }
+hidden:
+  comment_no_subject: true
+  langcode: true

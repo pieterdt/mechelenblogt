@@ -1,0 +1,8 @@
+uuid: 8641dfdf-f011-4ccf-867a-5733f89810de
+langcode: nl
+status: true
+dependencies: {  }
+id: primary-links
+label: 'Menu bovenaan'
+description: 'De primaire links boven aan de pagina.'
+locked: false

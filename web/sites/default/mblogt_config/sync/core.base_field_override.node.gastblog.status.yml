@@ -1,0 +1,22 @@
+uuid: c84ebe35-f271-44b1-b99a-0e6ba23176b8
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.gastblog
+id: node.gastblog.status
+field_name: status
+entity_type: node
+bundle: gastblog
+label: 'Publishing status'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Aan
+  off_label: Uit
+field_type: boolean

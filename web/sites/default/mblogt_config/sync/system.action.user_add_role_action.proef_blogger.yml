@@ -1,0 +1,14 @@
+uuid: 6f987f80-f048-4cd7-9f02-1adbcaa517fd
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.proef_blogger
+  module:
+    - user
+id: user_add_role_action.proef_blogger
+label: 'Voeg de rol proef-blogger toe aan de geselecteerde gebruikers'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: proef_blogger

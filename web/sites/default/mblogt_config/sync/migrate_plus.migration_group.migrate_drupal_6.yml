@@ -1,0 +1,20 @@
+uuid: dcbe155f-d0b3-4db5-b2ba-90ab5b530d95
+langcode: nl
+status: true
+dependencies: {  }
+id: migrate_drupal_6
+label: 'Import from Drupal 6'
+description: 'Migrations originally generated from drush migrate-upgrade --configure-only'
+source_type: 'Drupal 6'
+module: null
+shared_configuration:
+  source:
+    key: drupal_6
+    database:
+      driver: mysql
+      username: drupal
+      password: UKnXn8b2u2
+      host: localhost
+      port: ''
+      database: OLD6
+      prefix: drupal_

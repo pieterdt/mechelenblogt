@@ -1,0 +1,14 @@
+uuid: 0e641d5e-1897-473f-9f8c-4a43bc9433d8
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.gastblogger
+  module:
+    - user
+id: user_remove_role_action.gastblogger
+label: 'Verwijder de rol gastblogger van de geselecteerde gebruikers'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: gastblogger

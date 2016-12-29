@@ -1,0 +1,11 @@
+uuid: 78c5c6db-946a-439d-810f-6620ff2bbdca
+langcode: nl
+status: true
+dependencies: {  }
+name: 'Blog Artikel'
+type: blog_artikel
+description: 'Een artikel dat in de blog verschijnt, chronologisch geordend.  Een blog artikel kan ook tot categorieën behoren.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

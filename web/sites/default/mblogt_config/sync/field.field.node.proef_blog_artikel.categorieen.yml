@@ -1,0 +1,25 @@
+uuid: 0406fe97-deb4-43a4-b678-c43bf4d9a46b
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.categorieen
+    - node.type.proef_blog_artikel
+    - taxonomy.vocabulary.categorieen
+id: node.proef_blog_artikel.categorieen
+field_name: categorieen
+entity_type: node
+bundle: proef_blog_artikel
+label: Categorieën
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      - categorieen
+    auto_create: true
+field_type: entity_reference

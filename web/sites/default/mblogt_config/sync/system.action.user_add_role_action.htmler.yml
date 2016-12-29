@@ -1,0 +1,14 @@
+uuid: 86adba0a-65ca-4346-8b7e-f10b40880fdd
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.htmler
+  module:
+    - user
+id: user_add_role_action.htmler
+label: 'Voeg de rol HTMLer toe aan de geselecteerde gebruikers'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: htmler

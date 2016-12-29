@@ -1,0 +1,9 @@
+uuid: be7e396d-8154-49d0-aab7-37335deb79b6
+langcode: nl
+status: true
+dependencies: {  }
+id: fotograaf
+label: fotograaf
+weight: 10
+is_admin: null
+permissions: {  }

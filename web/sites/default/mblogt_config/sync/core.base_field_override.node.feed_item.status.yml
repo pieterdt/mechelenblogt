@@ -1,0 +1,22 @@
+uuid: 0718baa3-bd7f-4b07-9c35-0ce33223f04e
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.feed_item
+id: node.feed_item.status
+field_name: status
+entity_type: node
+bundle: feed_item
+label: 'Publishing status'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Aan
+  off_label: Uit
+field_type: boolean

@@ -1,0 +1,11 @@
+uuid: a0771780-45b0-4aa0-a3cf-05f4bebcec57
+langcode: nl
+status: true
+dependencies: {  }
+name: Infopagina
+type: infopagina
+description: 'Een statische pagina met algemene informatie.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

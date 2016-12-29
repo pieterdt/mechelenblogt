@@ -1,0 +1,20 @@
+uuid: 32abc806-2230-4657-96fc-c0a9768631f5
+langcode: nl
+status: true
+dependencies:
+  theme:
+    - seven
+_core:
+  default_config_hash: HHryZVJbeKi9WnuBGC8FOhBZmBnk2G1H6KxFuy-rC9A
+id: seven_local_actions
+theme: seven
+region: content
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primaire beheeracties'
+  provider: core
+  label_display: '0'
+visibility: {  }

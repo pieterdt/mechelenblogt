@@ -1,0 +1,5 @@
+name: Malines Graphiques Input filter
+description: Custom filter to scale MG images.
+type: module
+package: custom
+core: 8.x

@@ -1,0 +1,13 @@
+uuid: 72f68cfe-bfd9-4bdd-bb6d-d09d6a619eb7
+langcode: nl
+status: true
+dependencies: {  }
+id: gastblogger
+label: gastblogger
+weight: 7
+is_admin: null
+permissions:
+  - 'bypass mollom protection'
+  - 'create gastblog content'
+  - 'edit own gastblog content'
+  - 'use text format uitgebreide_html'

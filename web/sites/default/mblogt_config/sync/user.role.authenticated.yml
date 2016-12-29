@@ -1,0 +1,17 @@
+uuid: bef6614e-7e8d-47ec-af0e-e16c5934f0cf
+langcode: nl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access site-wide contact form'
+  - 'bypass mollom protection'
+  - 'access content'
+  - 'search content'
+  - 'access user profiles'

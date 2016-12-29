@@ -1,0 +1,8 @@
+uuid: 05fcf03d-338b-4950-9ec6-f8d6b1608697
+langcode: nl
+status: true
+dependencies: {  }
+id: navigation
+label: Navigatie
+description: 'Algemeen navigatiemenu voor de mogelijkheden die een gebruiker tot zijn beschikking heeft.'
+locked: false

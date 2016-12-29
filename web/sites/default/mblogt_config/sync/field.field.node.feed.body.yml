@@ -1,0 +1,22 @@
+uuid: 328aa725-0636-419f-bdd8-c2c6224c222f
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.feed
+  module:
+    - text
+id: node.feed.body
+field_name: body
+entity_type: node
+bundle: feed
+label: Berichttekst
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

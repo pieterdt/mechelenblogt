@@ -1,0 +1,21 @@
+uuid: 09aa4332-1e53-4897-a251-490a74603b24
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.user.profile_familienaam
+  module:
+    - text
+    - user
+id: user.user.profile_familienaam
+field_name: profile_familienaam
+entity_type: user
+bundle: user
+label: Familienaam
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

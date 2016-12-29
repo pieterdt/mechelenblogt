@@ -1,0 +1,14 @@
+uuid: 3366792c-f284-41ad-bab6-c4d9af3c92a0
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.reageerder
+  module:
+    - user
+id: user_add_role_action.reageerder
+label: 'Voeg de rol reageerder toe aan de geselecteerde gebruikers'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: reageerder

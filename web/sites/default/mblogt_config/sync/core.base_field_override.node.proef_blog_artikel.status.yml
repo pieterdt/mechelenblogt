@@ -1,0 +1,22 @@
+uuid: b5e9919d-1d8d-45e7-a579-1bf69d5e1ca8
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.proef_blog_artikel
+id: node.proef_blog_artikel.status
+field_name: status
+entity_type: node
+bundle: proef_blog_artikel
+label: 'Publishing status'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Aan
+  off_label: Uit
+field_type: boolean

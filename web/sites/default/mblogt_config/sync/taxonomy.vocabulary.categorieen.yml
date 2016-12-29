@@ -1,0 +1,9 @@
+uuid: ad4fa299-dab0-4621-8a97-19f812b67073
+langcode: nl
+status: true
+dependencies: {  }
+name: Categorieën
+vid: categorieen
+description: 'Lijstje van categorieën waartoe een blog artikel behoort. Bijvoorbeeld: cultuur, kunst, culinair, leven in mechelen.  Enkel eigennamen worden met hoofdletters geschreven.'
+hierarchy: 0
+weight: -9

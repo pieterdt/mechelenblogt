@@ -1,0 +1,9 @@
+uuid: 08e2772f-2e3f-4515-a63d-379ce0e8ecaf
+langcode: nl
+status: true
+dependencies: {  }
+name: 'City map display type'
+vid: city_map_display_type
+description: 'The visualisation that should be applied to a city map article when displayed on a map.'
+hierarchy: 1
+weight: 0

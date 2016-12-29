@@ -1,0 +1,11 @@
+uuid: c61fe30a-3877-4cfa-b3d5-3313cb9f15ef
+langcode: nl
+status: true
+dependencies: {  }
+id: reageerder
+label: reageerder
+weight: 11
+is_admin: null
+permissions:
+  - 'post comments'
+  - 'skip comment approval'

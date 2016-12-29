@@ -1,0 +1,22 @@
+uuid: 4eebca79-eb38-474c-adb5-5a1c9353786a
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.proef_blog_artikel
+  module:
+    - text
+id: node.proef_blog_artikel.body
+field_name: body
+entity_type: node
+bundle: proef_blog_artikel
+label: Inhoud
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

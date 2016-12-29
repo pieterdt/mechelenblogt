@@ -1,0 +1,39 @@
+uuid: 18e721b7-4b43-4f22-911a-88a0b9b9cbab
+langcode: nl
+status: true
+dependencies:
+  module:
+    - image_resize_filter
+    - mg_scale_filter
+name: 'Uitgebreide HTML'
+format: uitgebreide_html
+weight: 0
+filters:
+  filter_url:
+    id: filter_url
+    provider: filter
+    status: true
+    weight: 0
+    settings:
+      filter_url_length: 72
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: true
+    weight: -10
+    settings:
+      allowed_html: '<a href hreflang> <p> <span> <div> <h1> <h2 id> <h3 id> <h4 id> <h5 id> <img src alt height width> <map> <area> <br> <br /> <ul type> <ol start type> <li> <dl> <dt> <dd> <table> <tr> <td> <em> <b> <u> <i> <strong> <font> <del> <ins> <sub> <sup> <quote> <blockquote cite> <pre> <strike> <code> <cite> <center>'
+      filter_html_help: true
+      filter_html_nofollow: false
+  filter_image_resize:
+    id: filter_image_resize
+    provider: image_resize_filter
+    status: true
+    weight: 0
+    settings: {  }
+  filter_mg_scale:
+    id: filter_mg_scale
+    provider: mg_scale_filter
+    status: true
+    weight: 0
+    settings: {  }

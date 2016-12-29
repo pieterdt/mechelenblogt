@@ -1,0 +1,33 @@
+uuid: 9779181a-8343-4910-a18c-6d5c30b1440b
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.field.node.feed_item.body
+    - field.field.node.feed_item.comment_no_subject
+    - node.type.feed_item
+  module:
+    - text
+    - user
+id: node.feed_item.default
+targetEntityType: node
+bundle: feed_item
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  comment:
+    label: hidden
+    type: comment_default
+    weight: 20
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden:
+  comment_no_subject: true
+  langcode: true

@@ -1,0 +1,9 @@
+uuid: f85ab24f-236e-4d87-93fc-c836d58846d8
+langcode: nl
+status: true
+dependencies: {  }
+name: 'Map categorieën'
+vid: map_categorieen
+description: 'Categoriën voor map / wiki artikels.'
+hierarchy: 0
+weight: -8

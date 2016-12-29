@@ -1,0 +1,14 @@
+uuid: c9edc45c-7580-4bf2-b38f-9b35bed034c3
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.ex_blogger
+  module:
+    - user
+id: user_remove_role_action.ex_blogger
+label: 'Verwijder de rol ex-blogger van de geselecteerde gebruikers'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: ex_blogger

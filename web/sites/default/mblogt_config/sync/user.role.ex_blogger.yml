@@ -1,0 +1,9 @@
+uuid: 924e82ad-1287-4986-9252-f12e262e708b
+langcode: nl
+status: true
+dependencies: {  }
+id: ex_blogger
+label: ex-blogger
+weight: 8
+is_admin: null
+permissions: {  }

@@ -1,0 +1,14 @@
+uuid: 0b383a48-0c47-42d5-bc13-7cfbf4503cb1
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.beheerder
+  module:
+    - user
+id: user_add_role_action.beheerder
+label: 'Voeg de rol beheerder toe aan de geselecteerde gebruikers'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: beheerder

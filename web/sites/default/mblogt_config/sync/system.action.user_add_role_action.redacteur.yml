@@ -1,0 +1,14 @@
+uuid: 7edcdfde-0b46-429d-845f-5122f9fe0231
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.redacteur
+  module:
+    - user
+id: user_add_role_action.redacteur
+label: 'Voeg de rol redacteur toe aan de geselecteerde gebruikers'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: redacteur

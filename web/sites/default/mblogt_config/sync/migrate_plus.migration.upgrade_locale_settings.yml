@@ -1,0 +1,24 @@
+uuid: ad0a8fbd-5daa-4e0f-b45a-be862735b1d2
+langcode: nl
+status: true
+dependencies: {  }
+id: upgrade_locale_settings
+migration_tags:
+  - 'Drupal 6'
+  - 'Drupal 7'
+migration_group: migrate_drupal_6
+label: 'Locale configuration'
+source:
+  plugin: variable
+  variables:
+    - locale_cache_strings
+    - locale_js_directory
+process:
+  cache_strings: locale_cache_strings
+  javascript/directory: locale_js_directory
+destination:
+  plugin: config
+  config_name: locale.settings
+migration_dependencies:
+  required: {  }
+  optional: {  }

@@ -1,0 +1,9 @@
+uuid: 9e9ac700-480a-432f-b969-9f4deb12151c
+langcode: nl
+status: true
+dependencies: {  }
+name: 'Map belangrijkheid'
+vid: map_belangrijkheid
+description: 'De prioriteit van dit artikel om te verschijnen op de map.  Minder belangrijke artikels vallen af wanneer de map zijn maximum aantal elementen heeft bereikt.'
+hierarchy: 0
+weight: 0

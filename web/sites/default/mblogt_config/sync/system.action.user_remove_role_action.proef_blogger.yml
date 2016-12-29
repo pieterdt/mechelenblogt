@@ -1,0 +1,14 @@
+uuid: 840ebde5-aea7-4d34-ae0e-6ab29678fbb9
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.proef_blogger
+  module:
+    - user
+id: user_remove_role_action.proef_blogger
+label: 'Verwijder de rol proef-blogger van de geselecteerde gebruikers'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: proef_blogger

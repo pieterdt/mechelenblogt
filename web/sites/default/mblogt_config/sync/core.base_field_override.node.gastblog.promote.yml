@@ -1,0 +1,22 @@
+uuid: 566a13e9-4156-44e4-877a-b755c13d4441
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.gastblog
+id: node.gastblog.promote
+field_name: promote
+entity_type: node
+bundle: gastblog
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Aan
+  off_label: Uit
+field_type: boolean

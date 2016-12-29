@@ -1,0 +1,32 @@
+uuid: 67993d75-1af5-430e-a178-2d039fdec44f
+langcode: nl
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+    - user
+  theme:
+    - chameleon
+id: user_1
+theme: chameleon
+region: content
+weight: -10
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: ''
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      '': null
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    negate: false

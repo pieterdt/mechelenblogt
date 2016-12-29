@@ -1,0 +1,22 @@
+uuid: e7a16865-0707-48f7-8032-e92600d5e703
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.gastblog
+  module:
+    - text
+id: node.gastblog.body
+field_name: body
+entity_type: node
+bundle: gastblog
+label: Artikeltekst
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

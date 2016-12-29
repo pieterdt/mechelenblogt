@@ -1,0 +1,33 @@
+uuid: 87697c91-7bac-4988-ab57-26c4abed8e8a
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.comment_no_subject
+    - node.type.blog_artikel
+  module:
+    - comment
+id: node.blog_artikel.comment_no_subject
+field_name: comment_no_subject
+entity_type: node
+bundle: blog_artikel
+label: Comments
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    status: 2
+    cid: 0
+    last_comment_timestamp: 0
+    last_comment_name: null
+    last_comment_uid: 0
+    comment_count: 0
+default_value_callback: ''
+settings:
+  default_mode: 0
+  per_page: 300
+  anonymous: 2
+  form_location: false
+  preview: 0
+field_type: comment

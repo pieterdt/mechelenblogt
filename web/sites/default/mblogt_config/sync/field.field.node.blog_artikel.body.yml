@@ -1,0 +1,22 @@
+uuid: 8138ff59-6864-4152-b92c-689c1cc7432f
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.blog_artikel
+  module:
+    - text
+id: node.blog_artikel.body
+field_name: body
+entity_type: node
+bundle: blog_artikel
+label: Inhoud
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

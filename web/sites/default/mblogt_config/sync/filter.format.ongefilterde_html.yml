@@ -1,0 +1,14 @@
+uuid: 631d46f8-d294-4826-8d33-b8c159be4671
+langcode: nl
+status: true
+dependencies: {  }
+name: 'Ongefilterde HTML'
+format: ongefilterde_html
+weight: 0
+filters:
+  filter_null:
+    id: filter_null
+    provider: filter
+    status: true
+    weight: -10
+    settings: {  }

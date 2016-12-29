@@ -1,0 +1,22 @@
+uuid: 25375b93-1b78-4875-9f56-51ae06306b15
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.feed_item
+id: node.feed_item.promote
+field_name: promote
+entity_type: node
+bundle: feed_item
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Aan
+  off_label: Uit
+field_type: boolean

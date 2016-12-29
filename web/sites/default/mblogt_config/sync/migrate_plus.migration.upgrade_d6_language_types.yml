@@ -1,0 +1,56 @@
+uuid: 13aef888-56ff-4eff-ab24-6f25362912ff
+langcode: nl
+status: true
+dependencies: {  }
+id: upgrade_d6_language_types
+migration_tags:
+  - 'Drupal 6'
+migration_group: migrate_drupal_6
+label: 'Language types'
+source:
+  plugin: variable
+  variables:
+    - language_negotiation
+process:
+  all:
+    plugin: default_value
+    default_value:
+      - language_interface
+      - language_content
+      - language_url
+  configurable:
+    plugin: default_value
+    default_value:
+      - language_interface
+  negotiation/language_content/enabled:
+    plugin: default_value
+    default_value:
+      language-interface: 0
+  negotiation/language_url/enabled:
+    plugin: default_value
+    default_value:
+      language-url: 0
+      language-url-fallback: 1
+  negotiation/language_interface/enabled:
+    plugin: static_map
+    source: language_negotiation
+    map:
+      -
+        language-selected: 0
+      -
+        language-url: 0
+        language-selected: 1
+      -
+        language-url: 0
+        language-user: 1
+        language-browser: 2
+        language-selected: 3
+      -
+        language-url: 0
+        language-selected: 1
+destination:
+  plugin: config
+  config_name: language.types
+migration_dependencies:
+  required: {  }
+  optional: {  }

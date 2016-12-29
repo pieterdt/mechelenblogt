@@ -1,0 +1,9 @@
+uuid: 74402453-1740-4e62-b7a6-2bdf470c74b8
+langcode: nl
+status: true
+dependencies: {  }
+id: en
+label: English
+direction: ltr
+weight: 0
+locked: false

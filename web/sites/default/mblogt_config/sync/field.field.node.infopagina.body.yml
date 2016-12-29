@@ -1,0 +1,22 @@
+uuid: 33173000-c3f6-48ab-baf5-23a5de2eb4f4
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.infopagina
+  module:
+    - text
+id: node.infopagina.body
+field_name: body
+entity_type: node
+bundle: infopagina
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

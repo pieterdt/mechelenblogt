@@ -1,0 +1,43 @@
+uuid: f7f99eb4-782c-4144-bc7a-84d7d1342e13
+langcode: nl
+status: true
+dependencies: {  }
+id: upgrade_d6_node_revision_infopagina
+migration_tags:
+  - 'Drupal 6'
+migration_group: migrate_drupal_6
+label: 'Node revisions (infopagina)'
+source:
+  plugin: d6_node_revision
+  node_type: infopagina
+process:
+  nid: nid
+  vid: vid
+  langcode:
+    plugin: default_value
+    source: language
+    default_value: und
+  title: title
+  uid: node_uid
+  status: status
+  created: created
+  changed: changed
+  promote: promote
+  sticky: sticky
+  body/format:
+    plugin: migration
+    migration: upgrade_d6_filter_format
+    source: format
+  body/value: body
+  body/summary: teaser
+  revision_uid: revision_uid
+  revision_log: log
+  revision_timestamp: timestamp
+destination:
+  plugin: 'entity_revision:node'
+  default_bundle: infopagina
+migration_dependencies:
+  required:
+    - upgrade_d6_node_infopagina
+  optional:
+    - upgrade_d6_filter_format

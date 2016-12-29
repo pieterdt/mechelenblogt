@@ -1,0 +1,11 @@
+uuid: a39b5030-0ac7-40f7-8211-dbca7143985f
+langcode: nl
+status: true
+dependencies: {  }
+name: Gastblog
+type: gastblog
+description: 'Geregeld worden Gastbloggers uitgenodigd om een paar posts op MB te plaatsen.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

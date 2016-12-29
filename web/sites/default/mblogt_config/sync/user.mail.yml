@@ -1,0 +1,30 @@
+cancel_confirm:
+  body: "[user:name],\r\n\r\nuw account op [site:name] is verwijderd."
+  subject: 'Accountdetails voor [user:name] op [site:name] (verwijderd)'
+password_reset:
+  body: "Beste [user:name],\r\n\r\nEr is een verzoek ingediend bij [site:name] om uw wachtwoord te vernieuwen.\r\n\r\nU kunt nu inloggen bij [site:url-brief] door op de onderstaande link te klikken of deze in uw browser te kopiëren:  [user:one-time-login-url]  Dit is een eenmalige link en kan dus maar een maal worden gebruikt. Indien de link niet wordt gebruikt, vervalt deze na een dag.\r\n\r\nU zal automatisch worden doorgestuurd naar [user:edit-url] waar u uw wachtwoord kunt wijzigen.\r\n\r\nMocht er iets mislopen, laat het ons weten via mechelenblogt@gmail.com en we proberen je verder te helpen.\r\n\r\nGroeten,\r\n-- het [site:name] team"
+  subject: 'Nieuw wachtwoord op [site:name]'
+register_admin_created:
+  body: '<p>[user:name],  Een beheerder van [site:name] heeft een account voor u gemaakt. U kunt nu inloggen bij [site:login-url] met behulp van onderstaande gebruikersnaam en wachtwoord:  gebruikersnaam: [user:name] wachtwoord:   U kunt ook inloggen door op de onderstaande link te klikken of deze in uw browser te kopi&euml;ren:  [user:one-time-login-url]  Dit is een eenmalige login en kan dus maar een maal worden gebruikt.  Na het inloggen wordt u doorgestuurd naar [user:edit-url] waar u uw wachtwoord kunt wijzigen.   -- het [site:name] team</p>'
+  subject: 'Een beheerder heeft voor u een account gemaakt op [site:name]'
+register_no_approval_required:
+  body: '<p>[user:name],  Bedankt voor uw registratie bij [site:name]. U kunt nu inloggen bij [site:login-url] met behulp van uw gebruikersnaam en wachtwoord:  gebruikersnaam: [user:name] wachtwoord:   U kunt ook inloggen door op de onderstaande link te klikken of deze in uw browser te kopi&euml;ren:  [user:one-time-login-url]  Dit is een eenmalige login en kan dus maar een maal worden gebruikt.  Na het inloggen wordt u doorgestuurd naar [user:edit-url] waar u uw wachtwoord kunt wijzigen.   -- het [site:name] team</p>'
+  subject: 'Accountdetails voor [user:name] bij [site:name]'
+register_pending_approval:
+  body: '<p>[user:name],  Bedankt dat u zich heeft geregistreerd op [site:name]. De aanvraag voor een account wacht momenteel op goedkeuring. Zodra de aanvraag is goedgekeurd ontvangt u een e-mail met daarin inloginformatie, hoe het wachtwoord kan worden gewijzigd en andere details.   --  [site:name] team</p>'
+  subject: 'Accountdetails voor [user:name] op [site:name] (wachtend op de goedkeuring van de beheerder)'
+register_pending_approval_admin:
+  body: "[user:display-name] heeft een account aangevraagd.\r\n\r\n[user:edit-url]"
+  subject: 'Accountgegevens voor [user:display-name] op [site:name] (wachtend op de goedkeuring van de beheerder)'
+status_activated:
+  body: '<p>[user:name],  Uw account op [site:name] is geactiveerd.  U kunt nu inloggen door op de onderstaande link te klikken of deze in uw browser te kopi&euml;ren:  [user:one-time-login-url]  Dit is een eenmalige login en kan dus maar een maal worden gebruikt.  Na het inloggen wordt u doorgestuurd naar [user:edit-url] waar u uw wachtwoord kunt wijzigen.  Nadat u uw wachtwoord heeft gewijzigd, kunt u in de toekomst inloggen op [site:login-url] met:  gebruikersnaam: [user:name]</p>'
+  subject: 'Accountdetails voor [user:name] op [site:name] (goedgekeurd)'
+status_blocked:
+  body: 'Uw account op [site:name] is geblokkeerd.'
+  subject: 'Accountdetails voor [user:name] op [site:name] (geblokeerd)'
+status_canceled:
+  body: "[user:display-name],\r\n\r\nUw account op [site:name] is geannuleerd.\r\n\r\n--  [site:name] team"
+  subject: 'Accountgegevens voor [user:display-name] op [site:name] (geannuleerd)'
+langcode: nl
+_core:
+  default_config_hash: m4J3ROov32OEquRYGLbx3SpdDGuqx9l_zJtNvihqdCg

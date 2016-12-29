@@ -1,0 +1,22 @@
+uuid: f4985695-f70e-410e-b550-fee09e6fa610
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.mass_contact
+id: node.mass_contact.promote
+field_name: promote
+entity_type: node
+bundle: mass_contact
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Aan
+  off_label: Uit
+field_type: boolean

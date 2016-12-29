@@ -1,0 +1,27 @@
+uuid: 36f6aced-be31-479b-ae8a-990811f4ad06
+langcode: nl
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.feed.body
+    - node.type.feed
+  module:
+    - text
+    - user
+id: node.feed.teaser
+targetEntityType: node
+bundle: feed
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden:
+  langcode: true

@@ -1,0 +1,13 @@
+uuid: d86efc6c-9970-4155-8a42-add64d726fcf
+langcode: nl
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: SPsUXsR3Rc8d1y3gewzaAKWa1ncea_ywXX3f7LTn7k0
+id: user_unblock_user_action
+label: 'De geselecteerde gebruiker(s) activeren'
+type: user
+plugin: user_unblock_user_action
+configuration: {  }

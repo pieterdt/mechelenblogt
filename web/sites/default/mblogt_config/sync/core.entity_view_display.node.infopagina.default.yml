@@ -1,0 +1,33 @@
+uuid: d9caf369-a227-4535-8816-51b1f3b87a23
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.field.node.infopagina.body
+    - field.field.node.infopagina.comment_no_subject
+    - node.type.infopagina
+  module:
+    - text
+    - user
+id: node.infopagina.default
+targetEntityType: node
+bundle: infopagina
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  comment:
+    label: hidden
+    type: comment_default
+    weight: 20
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden:
+  comment_no_subject: true
+  langcode: true

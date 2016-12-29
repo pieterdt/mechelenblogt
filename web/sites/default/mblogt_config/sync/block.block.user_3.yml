@@ -1,0 +1,34 @@
+uuid: 36c1e40a-9b17-4d00-9e43-70bf0c66ea05
+langcode: nl
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+    - user
+  theme:
+    - bartik
+_core:
+  default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
+id: user_3
+theme: bartik
+region: content
+weight: -3
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: ''
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      '': null
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    negate: false

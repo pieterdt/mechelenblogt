@@ -1,0 +1,8 @@
+uuid: f3005b4d-b002-4985-b0b0-647dcccc8d3e
+langcode: nl
+status: true
+dependencies: {  }
+id: comment_no_subject
+label: 'Reacties zonder onderwerpveld'
+target_entity_type_id: node
+description: 'Staat het reageren op de inhoud toe, reacties zonder onderwerpveld'

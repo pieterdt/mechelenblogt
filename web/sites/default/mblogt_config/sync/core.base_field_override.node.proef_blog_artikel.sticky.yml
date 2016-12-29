@@ -1,0 +1,22 @@
+uuid: a7b38dba-d3b5-40f8-8dde-675303f2cd9b
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.proef_blog_artikel
+id: node.proef_blog_artikel.sticky
+field_name: sticky
+entity_type: node
+bundle: proef_blog_artikel
+label: 'Sticky at the top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Aan
+  off_label: Uit
+field_type: boolean

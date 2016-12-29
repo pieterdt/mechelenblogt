@@ -1,0 +1,12 @@
+uuid: 02c559aa-d27a-414d-93cd-668d076e4c9f
+langcode: nl
+status: true
+dependencies: {  }
+id: contact
+label: Contact
+recipients:
+  - mechelenblogt@gmail.com
+reply: ''
+weight: 0
+message: null
+redirect: null

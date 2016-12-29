@@ -1,0 +1,13 @@
+uuid: 576097d5-4f8d-4262-8fdc-70c99a283ece
+langcode: nl
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: U9HspszLxcw6pZmRacFa6yDbbheyMN-We4fPbrWWHGg
+id: node_save_action
+label: 'Inhoud opslaan'
+type: node
+plugin: node_save_action
+configuration: {  }

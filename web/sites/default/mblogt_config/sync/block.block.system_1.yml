@@ -1,0 +1,20 @@
+uuid: a8f82df3-bd7b-496c-80f8-070ae8c2b9e7
+langcode: nl
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - chameleon
+id: system_1
+theme: chameleon
+region: content
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: ''
+  provider: system
+  label_display: '0'
+visibility: {  }

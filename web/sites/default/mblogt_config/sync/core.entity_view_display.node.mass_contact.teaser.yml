@@ -1,0 +1,27 @@
+uuid: 5968bd4b-8c4f-47e1-b116-9dcfd1a5ee19
+langcode: nl
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.mass_contact.body
+    - node.type.mass_contact
+  module:
+    - text
+    - user
+id: node.mass_contact.teaser
+targetEntityType: node
+bundle: mass_contact
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden:
+  langcode: true

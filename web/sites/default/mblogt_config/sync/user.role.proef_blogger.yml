@@ -1,0 +1,14 @@
+uuid: 35c63725-8719-4aa9-a59e-ff173a0b4b50
+langcode: nl
+status: true
+dependencies: {  }
+id: proef_blogger
+label: proef-blogger
+weight: 9
+is_admin: null
+permissions:
+  - 'bypass mollom protection'
+  - 'create proef_blog_artikel content'
+  - 'edit own proef_blog_artikel content'
+  - 'view revisions'
+  - 'view post access counter'

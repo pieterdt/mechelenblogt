@@ -1,0 +1,22 @@
+uuid: 1427c104-8ad8-495e-b021-afd27cf08733
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.infopagina
+id: node.infopagina.status
+field_name: status
+entity_type: node
+bundle: infopagina
+label: 'Publishing status'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Aan
+  off_label: Uit
+field_type: boolean

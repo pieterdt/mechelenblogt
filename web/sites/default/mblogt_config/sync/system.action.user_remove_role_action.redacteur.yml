@@ -1,0 +1,14 @@
+uuid: e6371305-3c9d-49c3-a508-ab8e55dd704a
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.redacteur
+  module:
+    - user
+id: user_remove_role_action.redacteur
+label: 'Verwijder de rol redacteur van de geselecteerde gebruikers'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: redacteur

@@ -1,0 +1,20 @@
+uuid: a194e51d-2cb1-4430-912e-017babf56cb9
+langcode: nl
+status: true
+dependencies:
+  module:
+    - text
+    - user
+id: user.profile_familienaam
+field_name: profile_familienaam
+entity_type: user
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

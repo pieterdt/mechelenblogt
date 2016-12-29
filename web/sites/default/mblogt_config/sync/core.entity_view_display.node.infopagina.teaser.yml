@@ -1,0 +1,27 @@
+uuid: 6670e661-c798-4fb6-be31-f0df2466ed8c
+langcode: nl
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.infopagina.body
+    - node.type.infopagina
+  module:
+    - text
+    - user
+id: node.infopagina.teaser
+targetEntityType: node
+bundle: infopagina
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden:
+  langcode: true

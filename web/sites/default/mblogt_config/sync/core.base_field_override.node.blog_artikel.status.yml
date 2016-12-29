@@ -1,0 +1,22 @@
+uuid: b110b0eb-7df3-4f4e-83a0-a398aa254ac9
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.blog_artikel
+id: node.blog_artikel.status
+field_name: status
+entity_type: node
+bundle: blog_artikel
+label: 'Publishing status'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Aan
+  off_label: Uit
+field_type: boolean

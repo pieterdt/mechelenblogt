@@ -1,0 +1,22 @@
+uuid: d8cdb791-c13f-4e79-9d47-6b31d5026a67
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.gastblog
+id: node.gastblog.sticky
+field_name: sticky
+entity_type: node
+bundle: gastblog
+label: 'Sticky at the top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Aan
+  off_label: Uit
+field_type: boolean

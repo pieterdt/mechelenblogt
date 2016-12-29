@@ -1,0 +1,21 @@
+uuid: edb06d42-0b10-475e-9e63-5fc4e12adf79
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.user.profile_voornaam
+  module:
+    - text
+    - user
+id: user.user.profile_voornaam
+field_name: profile_voornaam
+entity_type: user
+bundle: user
+label: Voornaam
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

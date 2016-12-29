@@ -1,0 +1,14 @@
+uuid: 6287d5fb-138b-4fbb-865d-bb52392b7b5d
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.fotograaf
+  module:
+    - user
+id: user_add_role_action.fotograaf
+label: 'Voeg de rol fotograaf toe aan de geselecteerde gebruikers'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: fotograaf

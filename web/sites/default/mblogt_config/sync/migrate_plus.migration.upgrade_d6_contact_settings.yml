@@ -1,0 +1,29 @@
+uuid: ca7a3afb-e5fd-4187-bd37-951f5aed9a30
+langcode: nl
+status: true
+dependencies: {  }
+id: upgrade_d6_contact_settings
+migration_tags:
+  - 'Drupal 6'
+migration_group: migrate_drupal_6
+label: 'Contact configuration'
+source:
+  plugin: contact_settings
+  variables:
+    - contact_default_status
+    - contact_hourly_threshold
+process:
+  user_default_enabled: contact_default_status
+  flood/limit: contact_hourly_threshold
+  default_form:
+    plugin: migration
+    migration: upgrade_contact_category
+    source: default_category
+destination:
+  plugin: config
+  config_name: contact.settings
+migration_dependencies:
+  required:
+    - upgrade_contact_category
+  optional:
+    - upgrade_contact_category

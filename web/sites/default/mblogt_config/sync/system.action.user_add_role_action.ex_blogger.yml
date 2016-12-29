@@ -1,0 +1,14 @@
+uuid: 085c1c85-5222-4e4b-b0a1-b8f24670b0b7
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.ex_blogger
+  module:
+    - user
+id: user_add_role_action.ex_blogger
+label: 'Voeg de rol ex-blogger toe aan de geselecteerde gebruikers'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: ex_blogger

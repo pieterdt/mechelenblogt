@@ -1,0 +1,14 @@
+uuid: e86b4de2-139a-484f-af0b-64edd3762e0b
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.reageerder
+  module:
+    - user
+id: user_remove_role_action.reageerder
+label: 'Verwijder de rol reageerder van de geselecteerde gebruikers'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: reageerder

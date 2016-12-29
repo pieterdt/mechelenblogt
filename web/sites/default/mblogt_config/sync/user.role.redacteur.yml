@@ -1,0 +1,19 @@
+uuid: 6d0031de-a0eb-4c24-8c72-c25fd662d700
+langcode: nl
+status: true
+dependencies: {  }
+id: redacteur
+label: redacteur
+weight: 6
+is_admin: null
+permissions:
+  - 'create blog content'
+  - 'bypass mollom protection'
+  - 'administer nodes'
+  - 'access content overview'
+  - 'edit any blog_artikel content'
+  - 'edit any proef_blog_artikel content'
+  - 'revert revisions'
+  - 'view revisions'
+  - 'view post access counter'
+  - 'use text format uitgebreide_html'

@@ -1,0 +1,22 @@
+uuid: 48327029-a15f-432a-b049-0bc9c964b8a0
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.blog_artikel
+id: node.blog_artikel.promote
+field_name: promote
+entity_type: node
+bundle: blog_artikel
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Aan
+  off_label: Uit
+field_type: boolean

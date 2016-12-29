@@ -1,0 +1,22 @@
+uuid: 65173e16-ea87-4900-a42f-af2e34d897af
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.blog
+id: node.blog.status
+field_name: status
+entity_type: node
+bundle: blog
+label: 'Publishing status'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Aan
+  off_label: Uit
+field_type: boolean

@@ -1,0 +1,32 @@
+uuid: 4bd198f9-9c10-423a-82e8-f65b1aa400e4
+langcode: nl
+status: true
+dependencies:
+  config:
+    - views.view.who_s_online
+  module:
+    - user
+    - views
+  theme:
+    - bartik
+id: user_2
+theme: bartik
+region: content
+weight: -2
+provider: null
+plugin: 'views_block:who_s_online-who_s_online_block'
+settings:
+  id: 'views_block:who_s_online-who_s_online_block'
+  label: 'Wie is online'
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: '10'
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      '': null
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    negate: false

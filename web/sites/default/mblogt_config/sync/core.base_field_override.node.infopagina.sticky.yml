@@ -1,0 +1,22 @@
+uuid: 08e41ff3-500e-4d53-9750-1d6a041cf1f5
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.infopagina
+id: node.infopagina.sticky
+field_name: sticky
+entity_type: node
+bundle: infopagina
+label: 'Sticky at the top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Aan
+  off_label: Uit
+field_type: boolean

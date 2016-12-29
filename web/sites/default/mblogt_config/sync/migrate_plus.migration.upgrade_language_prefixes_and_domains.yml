@@ -1,0 +1,32 @@
+uuid: 6c61cf70-eb8c-4b4f-864f-2aa6b0aaeabd
+langcode: nl
+status: true
+dependencies: {  }
+id: upgrade_language_prefixes_and_domains
+migration_tags:
+  - 'Drupal 6'
+  - 'Drupal 7'
+migration_group: migrate_drupal_6
+label: 'Language prefixes and domains'
+source:
+  plugin: language
+  fetch_all: true
+  domain_negotiation: true
+process:
+  url/prefixes:
+    plugin: array_build
+    source: languages
+    key: language
+    value: prefix
+  url/domains:
+    plugin: language_domains
+    source: languages
+    key: language
+    value: domain
+destination:
+  plugin: config
+  config_name: language.negotiation
+migration_dependencies:
+  required:
+    - upgrade_language
+  optional: {  }

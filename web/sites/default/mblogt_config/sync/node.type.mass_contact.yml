@@ -1,0 +1,11 @@
+uuid: f35bca66-c888-4ecc-91fb-a6404b1af16b
+langcode: nl
+status: true
+dependencies: {  }
+name: 'Mass Contact Message'
+type: mass_contact
+description: 'Archived copy of mass e-mails sent from this site.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

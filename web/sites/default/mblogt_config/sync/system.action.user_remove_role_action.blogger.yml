@@ -1,0 +1,14 @@
+uuid: d2ed77ff-66b9-41d8-a671-4ff5f1145d28
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.blogger
+  module:
+    - user
+id: user_remove_role_action.blogger
+label: 'Verwijder de rol blogger van de geselecteerde gebruikers'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: blogger

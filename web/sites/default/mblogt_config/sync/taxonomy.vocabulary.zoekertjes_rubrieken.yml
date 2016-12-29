@@ -1,0 +1,9 @@
+uuid: 06ecc8dd-7e2e-4740-8283-82cf25e9129f
+langcode: nl
+status: true
+dependencies: {  }
+name: 'Zoekertjes rubrieken'
+vid: zoekertjes_rubrieken
+description: 'Rubrieken waarin zoekertjes vallen.'
+hierarchy: 0
+weight: -6

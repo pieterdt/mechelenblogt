@@ -1,0 +1,27 @@
+uuid: 1a765fde-c534-4158-890b-8a6501d86371
+langcode: nl
+status: true
+dependencies: {  }
+id: upgrade_language
+migration_tags:
+  - 'Drupal 6'
+  - 'Drupal 7'
+migration_group: migrate_drupal_6
+label: Languages
+source:
+  plugin: language
+process:
+  id: language
+  label: name
+  direction:
+    plugin: static_map
+    source: direction
+    map:
+      - ltr
+      - rtl
+  weight: weight
+destination:
+  plugin: 'entity:configurable_language'
+migration_dependencies:
+  required: {  }
+  optional: {  }

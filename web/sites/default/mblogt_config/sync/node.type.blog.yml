@@ -1,0 +1,11 @@
+uuid: 09064d03-9752-4720-993f-50fd097c3881
+langcode: nl
+status: true
+dependencies: {  }
+name: 'Interne technische blog'
+type: blog
+description: 'Een update over de status van de Mechelen Blogt Drupal-installatie of de server waarop die draait.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

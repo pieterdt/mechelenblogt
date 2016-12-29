@@ -1,0 +1,9 @@
+uuid: 07ce79be-2343-4aff-abd8-d4e0d1de5db3
+langcode: nl
+status: true
+dependencies: {  }
+name: 'City map category'
+vid: city_map_category
+description: 'The item category that a city map article represents.'
+hierarchy: 1
+weight: 0

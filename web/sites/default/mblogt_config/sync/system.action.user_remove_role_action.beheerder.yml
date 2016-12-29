@@ -1,0 +1,14 @@
+uuid: 46aae7ed-9cb5-449e-a8b3-d1c847e17193
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.beheerder
+  module:
+    - user
+id: user_remove_role_action.beheerder
+label: 'Verwijder de rol beheerder van de geselecteerde gebruikers'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: beheerder

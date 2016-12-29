@@ -1,0 +1,14 @@
+uuid: f37da456-fb8d-41f1-baa1-461660e46e50
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.gastblogger
+  module:
+    - user
+id: user_add_role_action.gastblogger
+label: 'Voeg de rol gastblogger toe aan de geselecteerde gebruikers'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: gastblogger

@@ -1,0 +1,9 @@
+uuid: c4a4dbca-5b54-465e-9091-492432114836
+langcode: nl
+status: true
+dependencies: {  }
+name: 'Map weergave type'
+vid: map_weergave_type
+description: 'Manieren om een artikel op de kaart weer te geven.'
+hierarchy: 1
+weight: -10

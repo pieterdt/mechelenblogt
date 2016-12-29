@@ -1,0 +1,11 @@
+uuid: 3b2b884f-5578-4f4e-b918-559060f29276
+langcode: nl
+status: true
+dependencies: {  }
+name: 'Proef blog-artikel'
+type: proef_blog_artikel
+description: 'Een blog artikel waarbij een redactie nodig is alvorens publicatie.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

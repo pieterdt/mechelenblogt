@@ -1,0 +1,14 @@
+uuid: 8b8a5d2b-f5c8-4fb5-932f-5ac457f6feb4
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.blogger
+  module:
+    - user
+id: user_add_role_action.blogger
+label: 'Voeg de rol blogger toe aan de geselecteerde gebruikers'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: blogger

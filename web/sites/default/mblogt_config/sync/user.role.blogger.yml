@@ -1,0 +1,19 @@
+uuid: 735c0db8-9995-47f0-9a5e-4ca5abb4dbf6
+langcode: nl
+status: true
+dependencies: {  }
+id: blogger
+label: blogger
+weight: 4
+is_admin: null
+permissions:
+  - 'access comments'
+  - 'access site-wide contact form'
+  - 'bypass mollom protection'
+  - 'access content'
+  - 'create blog_artikel content'
+  - 'edit own blog_artikel content'
+  - 'view revisions'
+  - 'view post access counter'
+  - 'access user profiles'
+  - 'use text format uitgebreide_html'

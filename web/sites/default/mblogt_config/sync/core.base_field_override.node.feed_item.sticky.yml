@@ -1,0 +1,22 @@
+uuid: 721647c6-3d5e-41c4-a6d1-7cadeb6d35a6
+langcode: nl
+status: true
+dependencies:
+  config:
+    - node.type.feed_item
+id: node.feed_item.sticky
+field_name: sticky
+entity_type: node
+bundle: feed_item
+label: 'Sticky at the top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Aan
+  off_label: Uit
+field_type: boolean

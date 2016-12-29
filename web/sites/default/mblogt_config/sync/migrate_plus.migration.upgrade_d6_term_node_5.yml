@@ -1,0 +1,55 @@
+uuid: 1ee218a2-c1d8-40e8-9fe8-5f42a80c0c0a
+langcode: nl
+status: true
+dependencies: {  }
+id: upgrade_d6_term_node_5
+migration_tags:
+  - 'Drupal 6'
+migration_group: migrate_drupal_6
+label: 'Term/node relationships'
+source:
+  plugin: d6_term_node
+  vid: '5'
+process:
+  nid:
+    -
+      plugin: migration
+      migration:
+        - upgrade_d6_node_blog
+        - upgrade_d6_node_blog_artikel
+        - upgrade_d6_node_feed
+        - upgrade_d6_node_feed_item
+        - upgrade_d6_node_gastblog
+        - upgrade_d6_node_infopagina
+        - upgrade_d6_node_mass_contact
+        - upgrade_d6_node_proef_blog_artikel
+      source: nid
+    -
+      plugin: skip_on_empty
+      method: row
+  type: type
+  map_weergave_type: tid
+destination:
+  plugin: 'entity:node'
+migration_dependencies:
+  required:
+    0: upgrade_d6_vocabulary_entity_display
+    1: upgrade_d6_vocabulary_entity_form_display
+    91: upgrade_d6_node_blog
+    92: upgrade_d6_node_blog_artikel
+    93: upgrade_d6_node_feed
+    94: upgrade_d6_node_feed_item
+    95: upgrade_d6_node_gastblog
+    96: upgrade_d6_node_infopagina
+    97: upgrade_d6_node_mass_contact
+    98: upgrade_d6_node_proef_blog_artikel
+  optional:
+    - upgrade_d6_node_blog
+    - upgrade_d6_node_blog_artikel
+    - upgrade_d6_node_feed
+    - upgrade_d6_node_feed_item
+    - upgrade_d6_node_gastblog
+    - upgrade_d6_node_infopagina
+    - upgrade_d6_node_mass_contact
+    - upgrade_d6_node_proef_blog_artikel
+    - upgrade_d6_node

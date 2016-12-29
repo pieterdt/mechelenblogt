@@ -1,0 +1,20 @@
+uuid: a4d7aaeb-fc18-4306-a009-ce22864919d5
+langcode: nl
+status: true
+dependencies: {  }
+id: upgrade_d6_menu
+migration_tags:
+  - 'Drupal 6'
+migration_group: migrate_drupal_6
+label: Menus
+source:
+  plugin: menu
+process:
+  id: menu_name
+  label: title
+  description: description
+destination:
+  plugin: 'entity:menu'
+migration_dependencies:
+  required: {  }
+  optional: {  }

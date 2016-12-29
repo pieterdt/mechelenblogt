@@ -1,0 +1,55 @@
+uuid: 4193da9e-9cd7-4323-af29-9f4e4e0907a1
+langcode: nl
+status: true
+dependencies:
+  config:
+    - filter.format.uitgebreide_html
+  module:
+    - ckeditor
+format: uitgebreide_html
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Opmaak
+          items:
+            - Format
+            - Bold
+            - Italic
+            - Superscript
+            - Subscript
+        -
+          name: Links
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Lijsten
+          items:
+            - BulletedList
+            - NumberedList
+        -
+          name: Media
+          items:
+            - Blockquote
+            - DrupalImage
+        -
+          name: Hulpmiddelen
+          items:
+            - Source
+            - Maximize
+  plugins:
+    language:
+      language_list: un
+    stylescombo:
+      styles: ''
+image_upload:
+  status: false
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

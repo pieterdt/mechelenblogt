@@ -1,0 +1,27 @@
+uuid: 8e2c95f3-0f8b-4761-b15e-3c417af14d81
+langcode: nl
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.proef_blog_artikel.body
+    - node.type.proef_blog_artikel
+  module:
+    - text
+    - user
+id: node.proef_blog_artikel.teaser
+targetEntityType: node
+bundle: proef_blog_artikel
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden:
+  langcode: true

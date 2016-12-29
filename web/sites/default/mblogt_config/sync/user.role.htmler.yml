@@ -1,0 +1,10 @@
+uuid: d58cab9f-8a12-4b1d-85af-221e49d177cc
+langcode: nl
+status: true
+dependencies: {  }
+id: htmler
+label: HTMLer
+weight: 5
+is_admin: null
+permissions:
+  - 'use text format uitgebreide_html'

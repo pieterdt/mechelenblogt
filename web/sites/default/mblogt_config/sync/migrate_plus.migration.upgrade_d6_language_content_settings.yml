@@ -1,0 +1,48 @@
+uuid: 9d0eebf1-5a66-4a8a-9d16-1d8f9a76e693
+langcode: nl
+status: true
+dependencies: {  }
+id: upgrade_d6_language_content_settings
+migration_tags:
+  - 'Drupal 6'
+migration_group: migrate_drupal_6
+label: 'Drupal 6 language content settings'
+source:
+  plugin: d6_language_content_settings
+  constants:
+    target_type: node
+process:
+  target_bundle: type
+  target_entity_type_id: constants/target_type
+  default_langcode:
+    -
+      plugin: static_map
+      source: language_content_type
+      map:
+        - null
+        - current_interface
+        - current_interface
+    -
+      plugin: skip_on_empty
+      method: row
+  language_alterable:
+    plugin: static_map
+    source: i18n_lock_node
+    map:
+      - true
+      - false
+  third_party_settings/content_translation/enabled:
+    plugin: static_map
+    source: language_content_type
+    map:
+      - null
+      - false
+      - true
+destination:
+  plugin: 'entity:language_content_settings'
+  content_translation_update_definitions:
+    - node
+migration_dependencies:
+  required:
+    - upgrade_d6_node_type
+  optional: {  }

@@ -1,0 +1,14 @@
+uuid: 97dd411b-5c7d-46da-ac15-8bcd823cc2bc
+langcode: nl
+status: true
+dependencies:
+  config:
+    - user.role.fotograaf
+  module:
+    - user
+id: user_remove_role_action.fotograaf
+label: 'Verwijder de rol fotograaf van de geselecteerde gebruikers'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: fotograaf

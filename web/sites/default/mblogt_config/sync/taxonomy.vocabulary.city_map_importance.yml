@@ -1,0 +1,9 @@
+uuid: 66dce347-2dde-4b5f-a837-b23f6f12918a
+langcode: nl
+status: true
+dependencies: {  }
+name: 'City map importance'
+vid: city_map_importance
+description: 'The ''importance'' of a city map article when displaying the map.  Less important articles will not be shown when the map is too crowded with articles.'
+hierarchy: 0
+weight: 0
