@@ -1,0 +1,7 @@
+name: mblogt
+  type: theme
+  description: "MechelenBlogt aanpassingen op het bootstrap clean blog theme"
+  core: 8.x
+  base theme: bootstrap_clean_blog
+  libraries:
+    - mblogt/global-styling
